@@ -3,14 +3,14 @@ import React from 'react';
 class SimpleButton extends React.Component {
   constructor(props){
     super(props);
-    this.state = {isTroggleOn: true}
+    this.state = {isToggleOn: true}
 
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
     this.setState(prevState => ({
-      isTroggleOn: !prevState.isTroggleOn
+      isToggleOn: !prevState.isToggleOn
     }));
   }
 
