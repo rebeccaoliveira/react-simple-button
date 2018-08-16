@@ -5,7 +5,8 @@
   "main": "./lib/SimpleButton.js",
   "license": "MIT",
   "scripts": {
-      "build": "webpack"
+      "build": "webpack",
+      "test": "jest"
   },
   "peerDependencies": {
       "prop-types": "^15.6.0",

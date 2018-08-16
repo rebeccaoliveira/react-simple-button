@@ -27,7 +27,7 @@ describe('SimpleButton', function() {
     expect(render(<SimpleButton />).text()).toEqual('hello');
   });
 
-  it('should show 'bye' text when button is clicked', function() {
+  it('should show `bye` text when button is clicked', function() {
     const wrapper = shallow(<SimpleButton />);
     wrapper.find('button').simulate('click');
     expect(render(wrapper).text()).toEqual('bye');
