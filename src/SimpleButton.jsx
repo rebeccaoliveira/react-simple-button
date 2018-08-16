@@ -16,8 +16,8 @@ class SimpleButton extends React.Component {
 
   render () {
     return (
-      <div>
-        <button onClick= {this.handleClick}>{this.state.isToggleOn ? 'hello' : 'bye' }
+      <div className="simple-button">
+        <button onClick={this.handleClick}>{this.state.isToggleOn ? 'hello' : 'bye' }
         </button>
       </div>
     );
