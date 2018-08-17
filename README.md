@@ -1,16 +1,16 @@
-# Welcome to [React](https://reactjs.org/) Simple Button open source contributors!
+# Welcome to [React](https://reactjs.org/) Simple Button :)
 
 [![Build Status](https://travis-ci.org/rebyoliveira/react-simple-button.svg?branch=master)](https://travis-ci.org/rebyoliveira/react-simple-button)
-
-This is a list of resources for people who are new to contributing to open source.
 
 ## Installation
 
 Simple Button is available as an [NPM Package](https://www.npmjs.com/package/react-simple-button)
 
-`with npm`
+using npm
 
-`npm i react-simple-button`
+```bash
+npm i react-simple-button`
+```
 
 ## Usage
 
