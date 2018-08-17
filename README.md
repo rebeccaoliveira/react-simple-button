@@ -9,7 +9,7 @@ Simple Button is available as an [NPM Package](https://www.npmjs.com/package/rea
 using npm
 
 ```bash
-npm i react-simple-button`
+npm i react-simple-button
 ```
 
 ## Usage
